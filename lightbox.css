@@ -37,8 +37,8 @@
 	font-family: "Woodford Bourne Bold";
 }
 
-.lightbox-merger .lightbox-button {
-	font-weight: 700;
+.lightbox-merger .btn {
+	font-family: "Woodford Bourne Bold";
 	opacity: 1;
 	border: 0;
 	padding: 10px 15px;
@@ -51,7 +51,7 @@
 	text-decoration: none;
 	display: inline-block;
 	text-align: center;
-	background-color: #00AE80;
+	background-color: #BA2025;
 	color: white;
 	-webkit-appearance: none;
 	border-radius: 5px;

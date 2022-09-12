@@ -30,7 +30,7 @@ var jaaulde=window.jaaulde||{};jaaulde.utils=jaaulde.utils||{};jaaulde.utils.coo
 jQuery(document).ready(function($){
 
     if ( $( '.lightbox-merger' ).length > 0 ) {
-        if ( $.cookies.get( 'lightbox-banking-closed' ) == null ) {
+        if ( $.cookies.get( 'banking-lightbox-closed' ) == null ) {
             $.magnificPopup.open({
                 items: {
                     src: '.lightbox-merger'
@@ -38,7 +38,7 @@ jQuery(document).ready(function($){
                 type: 'inline',
                 callbacks: {
                     close: function(){
-                        $.cookies.set( 'lightbox-banking-closed', 'true' );
+                        $.cookies.set( 'banking-lightbox-closed', 'true' );
                     }
                 }
             });

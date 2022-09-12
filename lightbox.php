@@ -20,6 +20,7 @@ function banking_lightbox() {
 		<h3>SECURITY CODE (PASSWORD)</h3>
 		<p>Your new security code will be the word security in all lowercase + the last 4 digits of the primary Member's Social Security Number.</p>
 		<p><strong>For example:</strong> If the last four digits of your SSN is 5678, then your default passcode is security5678.</p>
+		<p><a href="javascript:jQuery.magnificPopup.close();" class="btn">Continue to Site</a></p>
 	</div>
 	<?php
 }
