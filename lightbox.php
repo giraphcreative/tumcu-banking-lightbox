@@ -10,7 +10,7 @@ Author URI: https://jpederson.com/
 function banking_lightbox() {
 	?>	
 	<div class="lightbox-merger">
-		<h4>Welcome to our Online Banking Platform.</h4>
+		<h4>We've updated our Online Banking Platform</h4>
 		<p>You don't have to re-enroll, but upon your first login, you'll be prompted to update your Login ID and Security Code (password). Here's how to gain access to your account.</p>
 		<h3>LOGIN ID</h3>
 		<p>Your Login ID will be your Member (Account) number with leading 0's until it is six digits long.</p>
