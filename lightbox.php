@@ -8,6 +8,7 @@ Author URI: https://jpederson.com/
 */
 
 function banking_lightbox() {
+	if ( is_front_page() ) {
 	?>	
 	<div class="lightbox-merger">
 		<h4>We've updated our Online Banking Platform</h4>
@@ -23,6 +24,7 @@ function banking_lightbox() {
 		<p><a href="javascript:jQuery.magnificPopup.close();" class="btn">Continue to Site</a></p>
 	</div>
 	<?php
+	}
 }
 add_action( 'wp_footer', 'banking_lightbox' );
 
